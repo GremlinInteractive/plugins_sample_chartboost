@@ -17,10 +17,9 @@ local yourAppSignature = "your_app_signature";
 -- Initialise ChartBoost
 chartboost.init(
 	{
-		licenseKey = "insert_your_license_key_here",
 		appID = yourAppID,
 		appSignature = yourAppSignature, 
-		listener = chartBoostListener ,
+		listener = chartBoostListener,
 	}
 );
 
